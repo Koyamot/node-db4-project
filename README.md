@@ -16,7 +16,7 @@ Follow these steps to set up and work on your project:
 
 Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
 
-The requirements for the system, as stated by the client are:
+The requirements for the system, as stated by the client are:35
 
 - have a way to manage recipes.
 - have a way to manage ingredients.
