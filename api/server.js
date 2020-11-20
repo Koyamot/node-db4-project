@@ -1,9 +1,11 @@
   
 const express = require('express');
+const cors = require("cors");
 
 const server = express();
 
 server.use(express.json())
+server.use(cors());
 
 const recipeRouter = require("../recipe/recipeRouter.js")
 
